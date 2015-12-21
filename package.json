@@ -1,0 +1,44 @@
+{
+  "name": "dce",
+  "description": "an editor based on domcom",
+  "version": "0.0.1",
+  "keywords": [
+    "domcom",
+    "editor"
+  ],
+  "author": "Caoxingming",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/taijiweb/dce/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/taijiweb/dce",
+  "bugs": "https://github.com/taijiweb/dce/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taijiweb/dce.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "1.8.0",
+    "del": "^2.0.2",
+    "gulp": "~3.8.10",
+    "gulp-cached": "~1.0.1",
+    "gulp-changed": "~1.0.0",
+    "gulp-coffee": "~2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-mocha": "~1.1.0",
+    "gulp-plumber": "~0.6.5",
+    "gulp-rename": "~1.2.0",
+    "gulp-util": "~3.0.1",
+    "mocha": "1.14.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "dev": "gulp"
+  }
+}
