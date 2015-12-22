@@ -7,4 +7,4 @@ del = require('del')
 
 # keep the code as simple as possible !!!
 
-task 'clean', (cb) -> del(['dist', 'lib'], cb)
+task 'clean', (cb) -> del(['dist', 'lib', 'styles'], cb)

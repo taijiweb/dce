@@ -1,9 +1,9 @@
 {Tag, extendAttrs} = dc
 
 module.exports =
-class Gutter extends Tag
+class EditArea extends Tag
   constructor: (attrs) ->
     attrs = extendAttrs({
-      className: "editor gutter"
+      className: "edit-area"
     }, attrs)
     super('div', attrs)

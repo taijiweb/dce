@@ -10,8 +10,8 @@ task 'coffee', (cb) ->
 
   streamList.push compileCoffee('./src/**/*.coffee', './lib')
   # below is just for who prefer to reading javascript
-  streamList.push compileCoffee('./test/**/*.coffee', './dist/test')
-  streamList.push compileCoffee('./demo/**/*.coffee', './dist/demo')
+  streamList.push compileCoffee('./test/**/*.coffee', './test-build')
+  streamList.push compileCoffee('./demo/**/*.coffee', './demo-build')
 
   combineStream = new CombineStream(streamList)
   #combineStream.end -> logTime('finish coffee')

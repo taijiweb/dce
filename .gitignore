@@ -5,10 +5,10 @@ bower_components
 dev
 app
 build
-
 public
-
-before-dc
+styles
+test-build
+demo-build
 
 .tmp
 temp
