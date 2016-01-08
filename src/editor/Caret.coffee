@@ -29,10 +29,10 @@ class Caret extends Tag
 
     handle = null
 
-    this.on 'beforeAttach', ->
+    this.on 'attach', ->
       handle = setInterval toggleVisibility, 500
 
-    this.on 'afterDetach', ->
+    this.on 'detach', ->
       clearInterval handle
 
     this

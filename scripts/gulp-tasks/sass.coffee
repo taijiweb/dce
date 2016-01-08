@@ -1,16 +1,14 @@
 sass = require('gulp-sass')
 sourcemaps = require('gulp-sourcemaps')
 
-{task, src, dest, CombineStream} = require '../common'
+{task, src, dest, CombineStream} = require 'gulp-task-helper'
 
 # use webpack instead
 task 'sass', ->
   streamList = []
 
   for item in [
-    {src:'src/styles/app.scss', dest:'public'},
-    {src:['src/styles/**/*.scss', '!src/styles/app.scss'], dest:'styles'}
-    {src:['modules/dce/src/styles/**/*.scss'], dest:'node_modules/dce/styles'}
+    {src:['src/styles/**/*.scss'], dest:'styles'}
   ]
     streamList.push (src(item.src)
     .pipe(sourcemaps.init())
