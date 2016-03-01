@@ -1,4 +1,4 @@
-{expect, iit,idescribe, nit, ndescribe}  = require('tiiji-util/test-util')
+{expect, iit,idescribe, nit, ndescribe, ddescribe}  = require('bdd-test-helper')
 
 Editor = require("dce/lib/editor/Editor")
 

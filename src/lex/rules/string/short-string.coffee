@@ -14,7 +14,7 @@
 
 ###
 
-{STRING} = require '../../token-constant'
+{STRING} = require('../../token-constant')
 
 # do not escape
 # do not interpolate

@@ -4,6 +4,8 @@ module.exports =
 class Caret extends Tag
   constructor: ->
 
+    me = this
+
     visible = true
 
     caretAttr =
@@ -23,16 +25,15 @@ class Caret extends Tag
 
     toggleVisibility = ->
       visible = !visible
-      this.update()
+      me.update()
 
-    super('span', caretAttr)
 
     handle = null
 
-    this.on 'attach', ->
+    this.on 'willAttach', ->
       handle = setInterval toggleVisibility, 500
 
-    this.on 'detach', ->
+    this.on 'didDetach', ->
       clearInterval handle
 
-    this
+    super('span', caretAttr)

@@ -1,6 +1,6 @@
 # /* */ /** */ block comment
 
-{newline} = require '../../util'
+{newline} = require('../../util')
 
 module.exports = ->
   {text, cursor, lineno, maxLine} = @

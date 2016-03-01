@@ -1,2 +1,2 @@
 describe "test dce", ->
-require './test-editor'
+require('./test-editor')

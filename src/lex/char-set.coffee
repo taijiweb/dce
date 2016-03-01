@@ -1,4 +1,4 @@
-utils = require '../utils/index'
+utils = require('../utils/index')
 
 exports.charset = charset = utils.charset
 

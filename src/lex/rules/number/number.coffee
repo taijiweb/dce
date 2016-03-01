@@ -2,7 +2,7 @@
 
 {letterCharSet} = charset = require('../../char-set')
 
-{NUMBER} = require '../../token-constant'
+{NUMBER} = require('../../token-constant')
 
 module.exports = (char) ->
   {text, cursor} = @

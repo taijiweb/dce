@@ -1,6 +1,6 @@
-var Editor, expect, idescribe, iit, ndescribe, nit, _ref;
+var Editor, ddescribe, expect, idescribe, iit, ndescribe, nit, _ref;
 
-_ref = require('tiiji-util/test-util'), expect = _ref.expect, iit = _ref.iit, idescribe = _ref.idescribe, nit = _ref.nit, ndescribe = _ref.ndescribe;
+_ref = require('bdd-test-helper'), expect = _ref.expect, iit = _ref.iit, idescribe = _ref.idescribe, nit = _ref.nit, ndescribe = _ref.ndescribe, ddescribe = _ref.ddescribe;
 
 Editor = require("dce/lib/editor/Editor");
 

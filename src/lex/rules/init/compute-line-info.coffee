@@ -4,15 +4,15 @@ this should become the init or initLexer rule of the rules for the t language pa
 
      rules =
        {
-          init: require 'path/to/init/indent-no-tab'
+          init: require('path/to/init/indent-no-tab')
        }
      text = "some t language code"
      tParser = new Parser({text}, rules)
 
 ###
 
-searchHeadTab = require '../../../rewrite/search-head-tab'
-computeLineInfo = require '../../../rewrite/compute-line-info'
+searchHeadTab = require('../../../rewrite/search-head-tab')
+computeLineInfo = require('../../../rewrite/compute-line-info')
 
 module.exports = (cursor=0, lineno=0)->
   {text} = @

@@ -6,7 +6,7 @@
 ###
 
 
-{IDENTIFIER} = require '../../token-constant'
+{IDENTIFIER} = require('../../token-constant')
 
 {jsIdentifierCharSet} = charset = require('../../char-set')
 

@@ -1,4 +1,4 @@
-extend = require 'extend'
+extend = require('extend')
 
 # \ keyword and key symbol escape char
 symbolStopChars = extend charset(' \t\v\n\r()[]{},;:\'\".@\\'), identifierCharSet

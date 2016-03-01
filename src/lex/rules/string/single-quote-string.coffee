@@ -23,8 +23,8 @@
 
 ###
 
-{STRING} = require '../../token-constant'
-{repeat} = require '../../../utils'
+{STRING} = require('../../token-constant')
+{repeat} = require('../../../utils')
 
 # this method depends on rewriting the text by replaceing leading \r\n+spaces to a single '\n
 # and save the newline, lead in lineInfo

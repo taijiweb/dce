@@ -5,7 +5,7 @@
 
 ###
 
-RulerError = require '../ruler-error'
+RulerError = require('../ruler-error')
 
 exports.LexerError = class LexerError extends RulerError
 

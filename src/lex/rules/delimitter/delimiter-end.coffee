@@ -3,4 +3,4 @@
   ) ] }
 ###
 
-module.exports = require './char-self'
+module.exports = require('./char-self')

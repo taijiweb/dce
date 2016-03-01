@@ -2,7 +2,7 @@
 
 # one or more whitespaces, ie. space or tab.<br/>
 
-{SPACES} = require '../../token-constant'
+{SPACES} = require('../../token-constant')
 
 module.exports = ->
   {text, cursor} = @

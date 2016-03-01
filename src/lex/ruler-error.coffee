@@ -1,4 +1,4 @@
-TError = require './t-error'
+TError = require('./t-error')
 
 module.exports = class RulerError extends TError
   constructor: (@ruler, @rulerMessage, @useDefaultMessageHead=true) ->

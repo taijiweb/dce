@@ -3,14 +3,14 @@ this should become the init rule of the rules for the t language parser
 
      rules =
        {
-          init: require 'path/to/init/indent-no-tab'
+          init: require('path/to/init/indent-no-tab')
        }
      text = "some t language code"
      tParser = new Parser({text}, rules)
 
 ###
 
-{searchHeadTab, processLineHead} = require '../../../rewrite/process-line-head'
+{searchHeadTab, processLineHead} = require('../../../rewrite/process-line-head')
 
 module.exports = ->
   {text} = @

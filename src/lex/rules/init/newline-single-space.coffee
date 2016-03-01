@@ -4,15 +4,15 @@ this should become the init or initLexer rule of the rules for the t language pa
 
      rules =
        {
-          init: require 'path/to/init/newline-single-space'
+          init: require('path/to/init/newline-single-space')
        }
      text = "some t language code"
      lexer = new Lexer({text}, rules)
 
 ###
 
-searchHeadTab = require '../../../rewrite/search-head-tab'
-processNewlineSpaces = require '../../../rewrite/process-newline-spaces'
+searchHeadTab = require('../../../rewrite/search-head-tab')
+processNewlineSpaces = require('../../../rewrite/process-newline-spaces')
 
 module.exports = ->
   {text} = @

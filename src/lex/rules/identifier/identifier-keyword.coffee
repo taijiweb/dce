@@ -3,7 +3,7 @@
   depend: @isKeyword, @isConjunction
 ###
 
-{IDENTIFIER, KEYWORD} = require '../../token-constant'
+{IDENTIFIER, KEYWORD} = require('../../token-constant')
 
 charset = require('../../char-set')
 

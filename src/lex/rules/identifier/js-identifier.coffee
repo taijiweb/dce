@@ -1,6 +1,6 @@
 # js style identifier, can have $, letter, digit, underline
 
-{IDENTIFIER} = require '../../token-constant'
+{IDENTIFIER} = require('../../token-constant')
 
 {jsIdentifierCharSet} = charset = require('../../char-set')
 

@@ -23,7 +23,7 @@
 
 hasOwn = Object.hasOwnProperty
 
-RulerError = require './ruler-error'
+RulerError = require('./ruler-error')
 
 module.exports = class Ruler
 

@@ -14,7 +14,7 @@
 
 ###
 
-{STRING} = require '../../token-constant'
+{STRING} = require('../../token-constant')
 
 exports.shortSingleQuoteString = (char) ->
   {text, cursor} = @

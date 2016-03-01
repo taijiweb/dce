@@ -1,7 +1,7 @@
 sass = require('gulp-sass')
 sourcemaps = require('gulp-sourcemaps')
 
-{task, src, dest, CombineStream} = require 'gulp-task-helper'
+{task, src, dest, CombineStream} = require('gulp-task-helper')
 
 # use webpack instead
 task 'sass', ->

@@ -2,7 +2,7 @@
 
 # one or more whitespaces, line comment( // ..., and block comment (/**/
 
-{SPACES} = require '../token-constant'
+{SPACES} = require('../token-constant')
 
 exports.spacesComment ->
   {text, cursor} = @

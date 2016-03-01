@@ -17,11 +17,11 @@
 
 ###
 
-{UNDENT_TOO_MUCH_IN_STRING} = require './single-quote-string'
+{UNDENT_TOO_MUCH_IN_STRING} = require('./single-quote-string')
 
-{INTERPOLATE_STRING, INTERPOLATE_STRING_ITEM, STRING} = require '../../token-constant'
+{INTERPOLATE_STRING, INTERPOLATE_STRING_ITEM, STRING} = require('../../token-constant')
 
-{repeat} = require '../../../utils'
+{repeat} = require('../../../utils')
 
 # this method is based on lex/init/indent-no-space
 
